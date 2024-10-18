@@ -19,11 +19,11 @@ export default function Home() {
         <hr />
       </div>
       <ProdutosHomePage />
-      <div className="my-4">
+      <div className="my-4 px-2">
         <ElasticCarousel />
       </div>
       {/* <Section1 /> */}
-      <div className="container lg:mx-auto lg:min-h-50vh my-12">
+      <div className="container lg:mx-auto lg:min-h-50vh my-12 px-4">
         <TabsDemo />
       </div>
       <div className="container lg:mx-auto lg:min-h-50vh my-12">

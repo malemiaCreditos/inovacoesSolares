@@ -7,7 +7,7 @@ import CaracteristicasSelected from "./caracteristicasSelected";
 export default function ProdutoSelected({ id }: any) {
   return (
     <>
-      <div className="grid grid-cols-2 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 p-2">
         <div>
           <LensDemo id={id} />
         </div>

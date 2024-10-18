@@ -12,9 +12,27 @@ export default function Servicos() {
   return (
     <main className="min-h-screen">
       <Header />
-      <div className="container lg:mx-auto lg:min-h-50vh my-12">
+      <div className="container lg:mx-auto lg:min-h-50vh my-12 p-2">
         {id === "Projectos" && (
-          <div className="grid grid-cols-2 gap-4 mt-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
+            <div className="flex justify-center">
+              <motion.div
+                animate={{
+                  scale: [1, 2, 2, 1, 1],
+                  rotate: [0, 0, 270, 270, 0],
+                  borderRadius: ["20%", "20%", "50%", "50%", "20%"],
+                }}
+              >
+                <Image
+                  src="/projecto.png"
+                  alt="Logo"
+                  className="dark:invert"
+                  width={500}
+                  height={500}
+                  priority
+                />
+              </motion.div>
+            </div>
             <div>
               <h3 className="text-yellow-600 text-4xl drop-shadow-lg mb-4 font-bold sm:text-center">
                 Projectos de Sistemas Solares
@@ -70,6 +88,10 @@ export default function Servicos() {
                 </li>
               </ul>
             </div>
+          </div>
+        )}
+        {id === "Fornecimento" && (
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
             <div className="flex justify-center">
               <motion.div
                 animate={{
@@ -79,7 +101,7 @@ export default function Servicos() {
                 }}
               >
                 <Image
-                  src="/projecto.png"
+                  src="/fornecimento.png"
                   alt="Logo"
                   className="dark:invert"
                   width={500}
@@ -88,10 +110,6 @@ export default function Servicos() {
                 />
               </motion.div>
             </div>
-          </div>
-        )}
-        {id === "Fornecimento" && (
-          <div className="grid grid-cols-2 gap-4 mt-4">
             <div>
               <h3 className="text-yellow-600 text-4xl drop-shadow-lg mb-4 font-bold sm:text-center">
                 Fornecimento de Material para Sistemas Solares
@@ -191,6 +209,10 @@ export default function Servicos() {
                 </li>
               </ul>
             </div>
+          </div>
+        )}
+        {id === "Instalacao" && (
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
             <div className="flex justify-center">
               <motion.div
                 animate={{
@@ -200,19 +222,15 @@ export default function Servicos() {
                 }}
               >
                 <Image
-                  src="/fornecimento.png"
+                  src="/instalacao.png"
                   alt="Logo"
                   className="dark:invert"
-                  width={500}
-                  height={500}
+                  width={1000}
+                  height={1000}
                   priority
                 />
               </motion.div>
             </div>
-          </div>
-        )}
-        {id === "Instalacao" && (
-          <div className="grid grid-cols-2 gap-4 mt-4">
             <div>
               <h3 className="text-yellow-600 text-4xl drop-shadow-lg mb-4 font-bold sm:text-center">
                 Instalação de Sistemas Solares
@@ -290,24 +308,6 @@ export default function Servicos() {
                   </h3>
                 </li>
               </ul>
-            </div>
-            <div className="flex justify-center">
-              <motion.div
-                animate={{
-                  scale: [1, 2, 2, 1, 1],
-                  rotate: [0, 0, 270, 270, 0],
-                  borderRadius: ["20%", "20%", "50%", "50%", "20%"],
-                }}
-              >
-                <Image
-                  src="/instalacao.png"
-                  alt="Logo"
-                  className="dark:invert"
-                  width={1000}
-                  height={1000}
-                  priority
-                />
-              </motion.div>
             </div>
           </div>
         )}

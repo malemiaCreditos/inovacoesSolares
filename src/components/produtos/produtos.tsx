@@ -15,7 +15,7 @@ export default function ProdutosHomePage() {
           className="bg-gradient-to-r from-white from-10% via-yellow-300/20 via-30% to-white to-90%"
         />
       </div>
-      <div className="flex justify-end px-4">
+      <div className="flex justify-end px-4 mt-4">
         <Button as={Link} color="warning" href="/produtos" variant="flat">
           Ver mais...
           <AiOutlineArrowRight />

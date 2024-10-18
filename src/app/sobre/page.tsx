@@ -19,13 +19,13 @@ export default function Sobre() {
               <CardBody>
                 <div className="p-4">
                   <h3 className="mb-4 text-justify">
-                    Somos uma empresa especializada em soluções de energia solar
-                    focada em transformar o modo como nossos clientes geram e
-                    consomem energia. Com uma forte missão de promover a
-                    sustentabilidade e a independência energética, oferecemos
-                    serviços completos que vão desde o fornecimento de material,
-                    projetos personalizados, até a instalação e manutenção de
-                    sistemas solares para residências, comércios e indústrias.
+                    A Inovações Solares Comércio Geral & Serviços, Sociedade
+                    Unipessoal, Limitada é uma empresa moçambicana sediada na
+                    Av. Trabalho, nº 1235, Bairro da Malanga, Cidade de Maputo.
+                    Nossa missão é fornecer soluções tecnológicas de energia
+                    sustentável, com foco em sistemas de energia solar, para
+                    atender às necessidades tanto de empresas quanto de
+                    indivíduos.
                   </h3>
                   <Accordion>
                     <AccordionItem
@@ -34,13 +34,10 @@ export default function Sobre() {
                       title="Nossa Missão"
                     >
                       <h3 className="mb-4 text-justify">
-                        Nosso objetivo é liderar a transição para fontes de
-                        energia renováveis, proporcionando aos nossos clientes
-                        soluções acessíveis, eficientes e ambientalmente
-                        responsáveis. Acreditamos no poder da energia solar como
-                        uma ferramenta crucial para enfrentar os desafios
-                        ambientais globais e reduzir a dependência de
-                        combustíveis fósseis.
+                        Desenvolver e aplicar soluções de energias sustentáveis
+                        e de qualidade que respondam ás necessidades dos
+                        clientes e do mercado, assim como de todos os parceiros,
+                        gerando rentabilidade e sua satisfação.
                       </h3>
                       <h3>O que nos diferencia:</h3>
                       <div className="m-2">
@@ -90,76 +87,27 @@ export default function Sobre() {
                       aria-label="Nossos Valores"
                       title="Nossos Valores"
                     >
-                      <div className="m-2">
-                        <ul className="list-disc">
-                          <li>
-                            <h3 className="text-md">
-                              Sustentabilidade: Acreditamos que a energia solar
-                              é parte da solução para um futuro mais
-                              sustentável, e nos dedicamos a oferecer produtos e
-                              serviços que ajudem a reduzir o impacto ambiental
-                              e a promover uma economia de energia limpa.
-                            </h3>
-                          </li>
-                          <li>
-                            <h3 className="text-md">
-                              Inovação: Estamos sempre na vanguarda da
-                              tecnologia solar, adotando as últimas inovações
-                              para garantir que nossos clientes tenham acesso
-                              aos sistemas mais modernos e eficientes
-                              disponíveis no mercado.
-                            </h3>
-                          </li>
-                          <li>
-                            <h3 className="text-md">
-                              Compromisso com a Qualidade: Nossa prioridade é
-                              garantir que cada projeto seja executado com
-                              precisão e excelência. Desde o fornecimento de
-                              materiais até a instalação e suporte, trabalhamos
-                              com atenção aos detalhes e rigor técnico.
-                            </h3>
-                          </li>
-                        </ul>
-                      </div>
+                      <h3 className="mb-4 text-justify">
+                        Os nossos valores ligados à excelência, inovação,
+                        melhoria continua e honestidade, garantiram-nos
+                        fidelizar maior parte da nossa carteira d clientes,
+                        prestamos com dinamismo profissionalismo.
+                      </h3>
                     </AccordionItem>
                     <AccordionItem
                       key="3"
                       aria-label="O que oferecemos"
                       title="O que oferecemos"
                     >
-                      <div className="m-2">
-                        <ul className="list-disc">
-                          <li>
-                            <h3 className="text-md">
-                              Projetos de Sistemas Solares: Desenvolvemos
-                              soluções personalizadas, otimizadas para atender
-                              às necessidades energéticas de nossos clientes,
-                              com foco em eficiência e sustentabilidade.
-                            </h3>
-                          </li>
-                          <li>
-                            <h3 className="text-md">
-                              Fornecimento de Material: Fornecemos uma vasta
-                              gama de produtos de alta qualidade, incluindo
-                              painéis solares, inversores, baterias, cabos e
-                              estruturas de montagem.
-                            </h3>
-                          </li>
-                          <li>
-                            <h3 className="text-md">
-                              Instalação e Manutenção: Nossa equipe experiente
-                              garante a instalação segura e eficiente de
-                              sistemas solares, além de oferecer monitoramento e
-                              manutenção para assegurar a máxima vida útil dos
-                              equipamentos.
-                            </h3>
-                          </li>
-                        </ul>
-                      </div>
+                      <h3 className="mb-4 text-justify">
+                        Ser uma empresa revolucionária no país por meio dos
+                        sistemas renováveis, tornando-se referência em
+                        tecnologia de geração de energia.
+                      </h3>
                     </AccordionItem>
                   </Accordion>
                   <h3 className="my-4 text-justify">
-                    Com anos de experiência no setor de energia solar, nossa
+                    Com anos de experiência no sector de energia solar, nossa
                     empresa se orgulha de ser uma referência em soluções
                     sustentáveis e inovadoras. Estamos comprometidos em ajudar
                     nossos clientes a fazer uma transição tranquila para a
@@ -171,15 +119,6 @@ export default function Sobre() {
             </Card>
           </div>
         </div>
-        {/* <div className="grid grid-cols-3 gap-4 my-12">
-          <div className="flex justify-center">
-            <Card>
-              <CardBody>1</CardBody>
-            </Card>
-          </div>
-          <div className="flex justify-center">1</div>
-          <div className="flex justify-center">1</div>
-        </div> */}
       </div>
       <Footer />
     </main>

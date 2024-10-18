@@ -17,7 +17,11 @@ export default function ElasticCarousel() {
       </div>
       <hr />
       <div className="my-4">
-        <Carousel breakPoints={breakPoints}>
+        <Carousel
+          breakPoints={breakPoints}
+          showArrows={false}
+          enableAutoPlay={true}
+        >
           {elastic.map((item) => (
             <div className="m-4" key={item.id}>
               <Image

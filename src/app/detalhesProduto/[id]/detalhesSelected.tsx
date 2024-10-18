@@ -24,12 +24,12 @@ export default function DetalhesSelected({ id }: any) {
   }, []);
   return (
     <>
-      <div className="max-w-xl p-6">
+      <div className="max-w-xl p-2 md:p-6">
         {product.length > 0 &&
           product.map((item: any) => (
             <>
               <div className="flex flex-col">
-                <div className="text-yellow-600 text-4xl font-bold">
+                <div className="text-yellow-600 text-2xl md:text-4xl font-bold">
                   {item.nome}
                 </div>
                 <hr className="text-red-600" />

@@ -46,7 +46,7 @@ export function SidebarDemo() {
   return (
     <div
       className={cn(
-        "flex flex-col md:flex-row w-full flex-1 mx-auto border overflow-hidden",
+        "flex flex-col md:flex-row w-full flex-1 mx-auto border overflow-y-auto",
         "h-screen" // for your use case, use `h-screen` instead of `h-[60vh]`
       )}
     >

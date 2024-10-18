@@ -24,15 +24,15 @@ export default function CaracteristicasSelected({ id }: any) {
     setProduct(productVolatel);
   }, []);
   return (
-    <div className="grid grid-cols-2 gap-4">
-      <div className="ml-24 mt-6">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div className="md:ml-24 mt-6 p-2">
         <div className="text-gray-700 text-2xl font-bold mt-2">
           <p>Descrição do Produto</p>
         </div>
         {product.length > 0 &&
           product.map((item: any) => (
             <>
-              <div className="text-yellow-600 text-4xl font-bold mt-2">
+              <div className="text-yellow-600 text-2xl md:text-4xl font-bold mt-2">
                 <p>{item.nome}</p>
               </div>
               <div className="text-gray-700 text-xl text-justify mt-2">
@@ -114,13 +114,15 @@ export default function CaracteristicasSelected({ id }: any) {
           product.map((item: any) => (
             <>
               <div className="flex flex-col">
-                <Image
-                  src={item.img}
-                  alt="image"
-                  width={200}
-                  height={200}
-                  className="rounded-2xl"
-                />
+                <div className="flex justify-center">
+                  <Image
+                    src={item.img}
+                    alt="image"
+                    width={200}
+                    height={200}
+                    className="rounded-2xl"
+                  />
+                </div>
                 <div className="text-yellow-600 text-2xl font-bold mt-2">
                   <p>Informações Adicionais</p>
                 </div>

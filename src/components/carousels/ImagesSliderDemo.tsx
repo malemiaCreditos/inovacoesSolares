@@ -6,7 +6,7 @@ import { ImagesSlider } from "../ui/images-slider";
 export function ImagesSliderDemo() {
   const images = ["/carousel1.jpeg", "carousel2.jpeg", "carousel3.jpeg"];
   return (
-    <ImagesSlider className="h-[40rem]" images={images}>
+    <ImagesSlider className="h-[20rem] md:h-[40rem]" images={images}>
       <motion.div
         initial={{
           opacity: 0,

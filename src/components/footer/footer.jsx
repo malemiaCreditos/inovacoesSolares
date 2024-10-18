@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import { Link } from "@nextui-org/react";
 export default function Footer() {
   return (
     <>
@@ -10,7 +11,10 @@ export default function Footer() {
           </div>
 
           <div className="flex justify-center text-yellow-600">
-            <a href="#!" className="me-6 [&>svg]:h-4 [&>svg]:w-4">
+            <a
+              href="https://web.facebook.com/profile.php?id=100077453455388"
+              className="me-6 [&>svg]:h-4 [&>svg]:w-4"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="currentColor"
@@ -37,7 +41,10 @@ export default function Footer() {
                 <path d="M488 261.8C488 403.3 391.1 504 248 504 110.8 504 0 393.2 0 256S110.8 8 248 8c66.8 0 123 24.5 166.3 64.9l-67.5 64.9C258.5 52.6 94.3 116.6 94.3 256c0 86.5 69.1 156.6 153.7 156.6 98.2 0 135-70.4 140.8-106.9H248v-85.3h236.1c2.3 12.7 3.9 24.9 3.9 41.4z" />
               </svg>
             </a>
-            <a href="#!" className="me-6 [&>svg]:h-4 [&>svg]:w-4">
+            <a
+              href="https://www.instagram.com/inovacoes_solares_lda/"
+              className="me-6 [&>svg]:h-4 [&>svg]:w-4"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="currentColor"
@@ -62,14 +69,16 @@ export default function Footer() {
           <div className="grid-1 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
             <div className="">
               <h6 className="mb-4 flex items-center justify-center font-semibold uppercase md:justify-start">
-                <Image
-                  src="/inovacoes.png"
-                  alt="Logo"
-                  className="dark:invert"
-                  width={80}
-                  height={80}
-                  priority
-                />
+                <Link href="/">
+                  <Image
+                    src="/inovacoes.png"
+                    alt="Logo"
+                    className="dark:invert"
+                    width={80}
+                    height={80}
+                    priority
+                  />
+                </Link>
               </h6>
               <p className="text-yellow-600">
                 Descubra como a energia solar pode fazer a diferença na sua vida
@@ -100,13 +109,15 @@ export default function Footer() {
                 Serviços
               </h6>
               <p className="mb-4 text-yellow-600">
-                <a href="#!">Projectos de Sistemas Solares</a>
+                <a href="/servicos/Projectos">Projectos de Sistemas Solares</a>
               </p>
               <p className="mb-4 text-yellow-600">
-                <a href="#!">Fornecimento de Materiais</a>
+                <a href="/servicos/Fornecimento">Fornecimento de Materiais</a>
               </p>
               <p className="mb-4 text-yellow-600">
-                <a href="#!">Instalação de Sistemas Solares</a>
+                <a href="/servicos/Instalacao">
+                  Instalação de Sistemas Solares
+                </a>
               </p>
               <p className="mb-4 text-yellow-600">
                 <a href="#!">Manutenção de Sistemas Solares</a>
@@ -144,7 +155,7 @@ export default function Footer() {
                     <path d="M22.5 6.908V6.75a3 3 0 00-3-3h-15a3 3 0 00-3 3v.158l9.714 5.978a1.5 1.5 0 001.572 0L22.5 6.908z" />
                   </svg>
                 </span>
-                Bairro da Malanga Av.Trabalho 1235 nr.02 R/C
+                inovacoessolares@gmail.com
               </p>
               <p className="mb-4 text-yellow-600 flex items-center justify-center md:justify-start">
                 <span className="me-3 [&>svg]:h-5 [&>svg]:w-5">
