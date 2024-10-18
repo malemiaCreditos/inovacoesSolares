@@ -4,32 +4,32 @@
     "elastic": [
       {
         "id": 1,
-        "title": "Photoshoots",
+        "title": "...",
         "imageUrl": "/Sistemade12kW.png"
       },
       {
         "id": 2,
-        "title": "Adventure",
+        "title": "...",
         "imageUrl": "/Sistemade20kW.png"
       },
       {
         "id": 3,
-        "title": "Events",
+        "title": "Sistema de 5kw, com Armazenamento de 5kw",
         "imageUrl": "/Sistemade5kW.png"
       },
       {
         "id": 4,
-        "title": "Discovery",
+        "title": "...",
         "imageUrl": "/Sistemade3kW169.png"
       },
       {
         "id": 5,
-        "title": "Sistema ON - Grid de 12kw com Armazenamento de 20.6kw",
+        "title": "Sistema de 3kw, com Armazenamento de 5kw",
         "imageUrl": "/Sistemade2kW.png"
       },
       {
         "id": 6,
-        "title": "Sistema On-Grid de 20kw",
+        "title": "...",
         "imageUrl": "/Sistema5kW8paineies.png"
       }
     ]
